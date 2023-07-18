@@ -1,1 +1,22 @@
 # telemetry
+
+## Purpose
+A website that has information about telemetry monitoring and how to measure and intepret strips for new Telemetry techs and potentially nursing or medical students.
+
+## Built with
+* HTML
+* CSS
+* Javascript
+
+## Future Development
+* More on ST Segment abnormalities (Elevation and depression)
+* Reasoning for ST abnormalities
+* Option to test your knowledge on telemetry strips
+* Adding the QTC 
+* Add the Science behind the heart. Start with SA Node
+* Add Pediatric measurment values
+
+## Contribution
+Created by [Madison Mulligan]
+
+### ©️2023 Madison Mulligan
