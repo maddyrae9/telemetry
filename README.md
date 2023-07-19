@@ -13,7 +13,6 @@ A website that has information about telemetry monitoring and how to measure and
 * Reasoning for ST abnormalities
 * Option to test your knowledge on telemetry strips
 * Adding the QTC 
-* Add the Science behind the heart. Start with SA Node
 * Add Pediatric measurment values
 
 ## Contribution

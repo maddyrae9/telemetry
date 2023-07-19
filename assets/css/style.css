@@ -42,8 +42,6 @@ header ul li a{
     border: var(--secondary-color) solid 2px;
 }
 
-.footer {
-    position: sticky;
-    border: var(--primary-color) 2px;
-    background-color: var(--secondary-color);
+.footer { 
+    background-color: black;
 }
