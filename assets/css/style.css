@@ -34,14 +34,3 @@ header ul li a{
     font-weight: bolder;
     color: var(--tertiary-color);
 }
-/*------------------------Home------------------------*/
-.home {
-    border: var(--primary-color) solid 2px;
-}
-.heart-anatomy {
-    border: var(--secondary-color) solid 2px;
-}
-
-.footer { 
-    background-color: black;
-}
