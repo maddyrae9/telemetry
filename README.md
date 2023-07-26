@@ -16,6 +16,7 @@ A website that has information about telemetry monitoring and how to measure and
 * Make the lethals red
 
 ## Contribution
-Created by [Madison Mulligan]
+* Created by [Madison Mulligan]
+* Favicon <a target="_blank" href="https://icons8.com/icon/35588/heart-with-pulse">Heartbeat</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 ### ©️2023 Madison Mulligan
