@@ -34,12 +34,3 @@ header ul li a{
     font-weight: bolder;
     color: var(--tertiary-color);
 }
-
-footer {
-    position: sticky;
-    top: 0;
-    z-index: 9999;
-    border: var(--primary-color) solid 2px;
-    background-color: var(--secondary-color);
-    color: var(--tertiary-color);
-}
