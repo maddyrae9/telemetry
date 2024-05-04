@@ -45,6 +45,14 @@ header ul li a{
   width: 60%; /* The width is 60%, by default */
 }
 
+footer {
+  background-color: black;
+  color:var(--tertiary-color);
+  border-top: var(--primary-color) solid 2px;
+  position: sticky;
+  padding: 25px 25px;
+  align-items: center;
+}
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
   .left, .main, .right {
