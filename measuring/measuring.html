@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telemetry | Measuring Telemetry</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header class="container-fluid">
+        <section class="d-flex flex-row ">
+            <h1>Telemetry</h1>
+            <div class="d-flex ms-auto">
+                    <nav class="navbar navbar-expand-lg">
+                        <button class="navbar-toggler collapsed d-flex d-lg-none d-flex flex-column 
+                            justify-content-around" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
+                            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon top-bar"></span>
+                            <span class="toggler-icon middle-bar"></span>
+                            <span class="toggler-icon bottom-bar"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="../index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../anatomy/anatomy.html">Anatomy of the heart</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../basics/basics.html">Telemetry Basics</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../measuring/measuring.html">Measuring Telemetry</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../interpreting/interpreting.html">Interpreting Telemetry</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../rhythms/rhythms.html">Rhythms</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#phillips">Phillips</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+        </section>
+        </header>
+        <section id="measuring-telemetry" class="measuring-telemetry">
+            <div>
+                <h2>Measuring Telemetry</h2>
+                <p>
+                    The PR Interval begins at the beginning of the P wave and ends at the next wave to leave the baseline (Q for a negative wave or R for a positive wave)
+                </p>
+                <p>
+                    The QRS Interval begins at the first wave after the P wave (if present) and ends at the J point (the point where the direction of travel of the final wave of the QRS complex changes direction from up/down tracing to mostly lateral movement)
+                </p>
+                <p>
+                    The QT Inverval begins at the beginning of the QRS complex and ends at the end of T wave
+                </p>
+                <p>
+                    The R-R interval is measured from the peaks of two adjacent QRS complexes represents the rate of heart contraction
+                </p>
+                <img src="../assets/images/cardiac-cycle.png" alt="cardiac-cycle">
+            </div>
+            <div>
+                <h3>Normal Intervals</h3>
+                <p> When measuring and interpreting telemetry strips you want to make sure you are paying attention to the intervals (PR, QRS, QT,R-R, and the HR). If the intervals are outside the normal range than it can mean a different rhythm. It is very important to pay attention to these values. If you are looking over a pediatric patient's telemetry and they are under 12 years old then the values are different than the adult ages. We will discuss pediatric telemetry values as well.</p>
+                <p>For adults patients the intervals are: 
+                    <ul>
+                        <li> HR: 60-100 BPM</li>
+                        <li>PR: .09-.20 seconds, three to five small boxes</li>
+                        <li>QRS: .06-.12</li>
+                        <li>QT: Normal values vary by age, gender, and heart rate but usually 0.35 to 0.45 seconds, when greater than 0.49 seconds Notify the physician. When prologned QT interval the cQT (corrected QR) interval will be measured.</li>
+                    </ul>
+                    <div class="heartbt-img">
+                        <img src="../assets/images/peds-tele-values.png" alt="peds-tele-values"></div>
+                </p>
+                    <h3>Measurement Tips</h3>
+                    <p>
+                        <ul>
+                            <li>Choose an interval which either starts or ends on a dark (large box) line.</li>
+                            <li>Use paper and pencil or caliper to measure the interval on a flat level left to right. If difficult to identify boxes at that point move the recorded measurement to a portion of the strip lined up with a dark line box and count boxes to second mark</li>
+                            <li>Multiply the number of small boxes by 0.04 sec to find the interval length</li>
+                        </ul>
+                        <img src="../assets/images/measurement-tip.png" alt="measurent-tip">
+                        <p>PR interval = 5 small boxes 5 x 0.04 = PR 0.20 sec</p>
+                        <p>QT interval = 9 small boxes 9 x 0.04 = QT 0.36 sec</p>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    
+</body>
+</html>
