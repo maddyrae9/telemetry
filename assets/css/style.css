@@ -36,6 +36,9 @@ header ul li a{
 section {
   padding: 15px;
 }
+div#basics-boxes {
+  padding-top: 15px;
+}
 
 .left, .right {
   float: left;
