@@ -18,5 +18,7 @@ A website that has information about telemetry monitoring and how to measure and
 ## Contribution
 * Created by Madison Mulligan
 * Favicon <a target="_blank" href="https://icons8.com/icon/35588/heart-with-pulse">Heartbeat</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+* Burger Menu Icon <a target="_blank" href="https://www.flaticon.com/free-icons/menu" title="menu icons">Menu icons created by Febrian Hidayat - Flaticon</a>
+* Closing Icon <a target="_blank" href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by ariefstudio - Flaticon</a>
 
 ### ©️2023 Madison Mulligan

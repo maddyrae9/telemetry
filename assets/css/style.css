@@ -13,16 +13,18 @@ body{
 header {
     position:sticky;
     top: 0;
-    z-index: 9999;
+    z-index: 1000;
     border-bottom: var(--primary-color) solid 2px;
     text-decoration: underline solid 2px;
     padding-left: 150;
-    background-color: black;
+    background-color: var(--primary-color);
     color:var(--tertiary-color);
+    width: 100%;
 }
 header ul {
     margin: 10px 0;
     padding: 10px 0;
+    width: 100%;
 }
 header ul li a{
     color: var(--tertiary-color);
@@ -32,6 +34,7 @@ header ul li a{
 header ul li a{
     font-weight: bolder;
     color: var(--tertiary-color);
+    width: 100%;
 }
 section {
   padding: 15px;
@@ -58,9 +61,64 @@ footer {
   padding: 25px 25px;
   align-items: center;
 }
-/* Use a media query to add a breakpoint at 800px: */
-@media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+.burger-menu, 
+.burger-menu-btn {
+  display: none;
+}
+/* MOBILE VERSION */
+@media only screen and (max-width: 600px) {
+  .burger-menu-btn {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/icons/burger-bar.png), url(../images/icons/close.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center left 50px;
   }
+
+  .burger-menu {
+    width: 100%;
+    height: calc(100vh - 60px);
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  .burger-menu {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 900;
+    background-color: var(--tertiary-color);
+  }
+
+  .burger-menu ul{
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  .burger-menu ul li {
+    flex-basis: 100%;
+    border-top: 2px solid var(--secondary-color);
+  }
+  .burger-menu ul li:last-child {
+    flex-basis: 100%;
+    border-bottom: 2px solid var(--secondary-color);
+  }
+
+  .burger-menu ul li a {
+    display: block;
+    height: 100%;
+    font-size: 3rem;
+    padding: 30px, 0;
+    flex-basis: 100%;
+    text-align: center;
+  }
+  
 }
