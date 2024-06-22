@@ -128,7 +128,7 @@ footer {
     border-bottom: var(--primary-color) solid 2px;
     text-decoration: underline solid 2px;
     padding-left: 150;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color:var(--tertiary-color);
     width: 100%;
 }
