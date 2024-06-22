@@ -105,11 +105,11 @@ footer {
 
   .burger-menu ul li {
     flex-basis: 100%;
-    border-top: 2px solid var(--secondary-color);
+    border-top: 2px solid var(--primary-color);
   }
   .burger-menu ul li:last-child {
     flex-basis: 100%;
-    border-bottom: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--primary-color);
   }
 
   .burger-menu ul li a {
