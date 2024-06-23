@@ -13,12 +13,9 @@ A website that has information about telemetry monitoring and how to measure and
 * Reasoning for ST abnormalities
 * Option to test your knowledge on telemetry strips by adding quiz and see about adding answer sheet
 * Adding the QTC 
-* Add What is needed by nurses (i.e medications, Notifying physicians, escalation of care etc...)
+* Making the website mobile Responsive
 
 ## Contribution
 * Created by Madison Mulligan
 * Favicon <a target="_blank" href="https://icons8.com/icon/35588/heart-with-pulse">Heartbeat</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-* Burger Menu Icon <a target="_blank" href="https://www.flaticon.com/free-icons/menu" title="menu icons">Menu icons created by Febrian Hidayat - Flaticon</a>
-* Closing Icon <a target="_blank" href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by ariefstudio - Flaticon</a>
-
 ### ©️2023 Madison Mulligan
