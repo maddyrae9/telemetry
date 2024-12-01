@@ -122,3 +122,30 @@ footer {
   }
 
 }
+
+header {
+  position:sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: var(--primary-color) solid 2px;
+  text-decoration: underline solid 2px;
+  padding-left: 150;
+  background-color: var(--secondary-color);
+  color:var(--tertiary-color);
+  width: 100%;
+}
+header ul {
+  margin: 10px 0;
+  padding: 10px 0;
+  width: 100%;
+}
+header ul li a{
+  color: var(--tertiary-color);
+  padding: 15px 15px;
+  font-size: 18px;
+}
+header ul li a{
+  font-weight: bolder;
+  color: var(--tertiary-color);
+  width: 100%;
+}
