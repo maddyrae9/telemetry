@@ -9,8 +9,51 @@
 body{
     font-family:Arial, Helvetica, sans-serif;
 }
+/* Style Nav menu*/
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+  border-bottom: var(--primary-color) solid 2px;
+}
+/* Hide the links inside the nav menu */
+.topnav #myLinks {
+  display: none;
+}
+/* Style nav menu links*/
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* Add a grey background color on mouse over*/
+.topnav a:hover {
+  background-color: white;
+  color:black;
+}
+/* Style the active link (or home/logo) */
+.active {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
 /*--------------------Header------------------------*/
-header {
+/*header {
     position:sticky;
     top: 0;
     z-index: 1000;
@@ -35,7 +78,7 @@ header ul li a{
     font-weight: bolder;
     color: var(--tertiary-color);
     width: 100%;
-}
+} */
 section {
   padding: 15px;
 }
@@ -61,12 +104,13 @@ footer {
   padding: 25px 25px;
   align-items: center;
 }
+/*
 .burger-menu, 
 .burger-menu-btn {
   display: none;
 }
 /* MOBILE VERSION */
-@media only screen and (max-width: 575px) {
+/*@media only screen and (max-width: 575px) {
   .burger-menu-btn {
     display: block;
     width: 50px;
@@ -149,3 +193,4 @@ header ul li a{
   color: var(--tertiary-color);
   width: 100%;
 }
+*/

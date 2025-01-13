@@ -11,76 +11,26 @@
           rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
           crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-    <!-- Burger Menu Start-->
-    <div class="burger-menu">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a href="./index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="./anatomy/anatomy.html">Anatomy of the heart</a>
-            </li>
-            <li class="nav-item">
-                <a href="./basics/basics.html">Telemetry Basics</a>
-            </li>
-            <li class="nav-item">
-                <a href="./measuring/measuring.html">Measuring Telemetry</a>
-            </li>
-            <li class="nav-item">
-                <a href="./interpreting/interpreting.html">Interpreting Telemetry</a>
-            </li>
-            <li class="nav-item">
-                <a href="./rhythms/rhythms.html">Rhythms</a>
-            </li>
-        </ul>
+    <div class="topnav">
+        <a href="#home" class="active">Telemetry Guide</a>
+        <!--NAV LINKS (hidden)-->
+        <div id="myLinks">
+            <a href="./anatomy/anatomy.html">Anatomy of The Heart</a>
+            <a href="./basics/basics.html">Telemetry Basics</a>
+            <a href="./measuring/measuring.html">Measuring Telemetry</a>
+            <a href="./interpreting/">Interpreting Telemetry</a>
+            <a href="./rhythms/rhythms.html">Rhythms</a>
+        </div>
+        <!--Hamburger Menu-->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
-    <!--Burger Menu Stop-->
-
-    <header class="container-fluid">
-        <section class="d-flex flex-row ">
-            <h2>Telemetry</h2>
-            <div class="d-flex ms-auto">
-                    <nav class="navbar navbar-expand-lg">
-                        <button class="navbar-toggler collapsed d-flex d-lg-none d-flex flex-column 
-                            justify-content-around" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
-                            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="toggler-icon top-bar"></span>
-                            <span class="toggler-icon middle-bar"></span>
-                            <span class="toggler-icon bottom-bar"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a href="./index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="./anatomy/anatomy.html">Anatomy of the heart</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="./basics/basics.html">Telemetry Basics</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="./measuring/measuring.html">Measuring Telemetry</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="./interpreting/interpreting.html">Interpreting Telemetry</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="./rhythms/rhythms.html">Rhythms</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="burger-menu-btn"></div>
-                    </nav>
-                </div>
-        </section>
-    </header>
-
     <section id="home" class="home">
         <div>This website is designed to help health care professionals to learn telemetry and understand the science behind the heart. We will discuss the basic anatomy and physiology behind the heart, the basics of telemetry, measuring telemetry, how to interpret telemetry rhythms, and we will go over all the rhythms. Before we talk about the heart and rhythms, we want to know what the terminology behind the words used are. 
             <br>
